@@ -1,0 +1,7 @@
+extends layout
+
+block main
+  article#article
+    h1= title
+    div #{moment(date).format('LL')}
+    div!= contents

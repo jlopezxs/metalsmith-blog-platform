@@ -1,0 +1,13 @@
+extends layout
+
+block main
+  #blog
+    h1 blog
+    if collections.blog && collections.blog.length > 0
+      each post in collections.blog
+        h2
+          a(href=post.title.toLowerCase().replace(' ','-'))!= post.title
+        div!= post.excerpt
+    else
+      h2= collections.blog.length
+      h2 any post

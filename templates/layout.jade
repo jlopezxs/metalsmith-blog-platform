@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    include ./includes/head.jade
+  body
+    block body
+      #layout-main
+        block main
+
+    script(src='http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/highlight.min.js')
+    script(src='/js/main.js')

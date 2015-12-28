@@ -1,0 +1,28 @@
+{
+  "source": "src",
+  "destination": "dist",
+  "plugins": {
+    "metalsmith-collections": {
+      "posts": {
+        "pattern": "blog/!(index).md",
+        "sortBy": "date",
+        "reverse": true
+      }
+    },
+    "metalsmith-markdown": {
+      "smartypants": true,
+      "gfm": true,
+      "tables": true
+    },
+    "metalsmith-sass": {
+      "outputDir": "css"
+    },
+    "metalsmith-layouts": {
+      "engine": "jade",
+      "directory": "templates"
+    },
+    "metalsmith-permalinks": {
+      "pattern": "blog/:title"
+    }
+  }
+}

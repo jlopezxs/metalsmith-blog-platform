@@ -1,0 +1,12 @@
+{
+    "pages": {
+        "pattern": "pages/!(index).md",
+        "sortyBy": "date",
+        "reverse": true
+    },
+    "blog": {
+        "pattern": "blog/!(index).md",
+        "sortyBy": "date",
+        "reverse": true
+    }
+}
