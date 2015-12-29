@@ -1,6 +1,16 @@
 {  
-   "site":{  
+   "_blog":{  
       "title":"jlopezxs",
-      "url":"http://jlopezxs.github.io/"
+      "url":"http://jlopezxs.github.io/",
+      "navigation": true,
+      "logo": "https://avatars3.githubusercontent.com/u/7957190?v=3&s=460",
+      "description": "Jordi López Blog"
+   },
+   "_author":{
+		"name": "Jordi López",
+		"image": "https://avatars3.githubusercontent.com/u/7957190?v=3&s=460",
+      "bio": "Front End developer based in Barcelona, Spain. Coding addicted that enjoys building things with code, I like design, tecnhology and I ♥ OpenSource.",
+      "location": "Barcelona",
+      "website": "http://carloscuesta.me"
    }
 }

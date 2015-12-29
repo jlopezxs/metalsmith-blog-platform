@@ -33,11 +33,12 @@ MetalsmithBlog = Metalsmith(__dirname)
     }))
     .use(layouts({
         engine: config.general.engine,
-        directory: 'templates'
+        directory: 'templates',
+        partials: 'templates/partials'
     }))
     .use(inPlace({
         engine: config.general.engine,
-        pattern: '**/*.html'
+        partials: 'templates/partials'
     }))
     .use(drafts())
     .use(permalinks({

@@ -23,6 +23,13 @@
     },
     "metalsmith-permalinks": {
       "pattern": "blog/:title"
+    },
+    "metalsmith-register-helpers": {
+      "directory": "hdl_helpers"
+    },
+    "metalsmith-in-place": {
+      "engine": "handlebars",
+      "partials": "templates/partials"
     }
   }
 }
